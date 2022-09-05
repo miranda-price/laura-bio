@@ -38,17 +38,26 @@ h1 {
     width: 20vw;
 }
 
+.offcanvas-body > hr {
+    background-color: #a3515c;
+    height: 3px;
+}
+
 .offcanvas-body > *, .offcanvas-body, .card-body { 
     background-color: #C1D8DC;
 }
 
 .offcanvas-body > * {
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
 }
 
 .offcanvas-body h2, .offcanvas-body h3 {
     margin-top: 9vh;
     font-family: Roboto, sans-serif;
+}
+
+.offcanvas-body h3 {
+    margin-top: 5vh;
 }
 
 #progress {

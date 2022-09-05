@@ -2,7 +2,6 @@ const slider = document.getElementById('progress');
 
 let slide = function() {
     const val = slider.value;
-    console.log(val)
     if (val >= 1) {
         if (val >= 3) {
             document.getElementById('dash-a3').hidden=false;
