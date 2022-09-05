@@ -68,8 +68,8 @@ h1 {
 
 footer {
     position: absolute;
-    left: 3vw;
-    bottom: 2vh;
+    left: 2vw;
+    bottom: 10px;
 }
 
 .circle {
@@ -81,6 +81,11 @@ footer {
     z-index: 10;
 }
 .info {
+    background-color: #a3515cc4;
+    background-image: url('./question-mark.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10vh;
     width: 12vw;
     min-height: 25vh;
     position: fixed;

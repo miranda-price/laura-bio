@@ -14,7 +14,7 @@ let slide = function() {
     }
 
     if (val >= 4) {
-        document.getElementById('info1').hidden = false;
+        document.getElementById('card1').hidden = false;
         document.getElementById('point1').className = 'circle closed';
         if (val >= 7) {
             document.getElementById('dash-b3').hidden=false;
@@ -28,7 +28,7 @@ let slide = function() {
     }
 
     if (val >= 8) {
-        document.getElementById('info2').hidden = false;
+        document.getElementById('card2').hidden = false;
         document.getElementById('point2').className = 'circle closed';
         if (val >= 12) {
             document.getElementById('dash-c4').hidden=false;
@@ -45,7 +45,7 @@ let slide = function() {
     }
 
     if (val >= 13) {
-        document.getElementById('info3').hidden = false;
+        document.getElementById('card3').hidden = false;
         document.getElementById('point3').className = 'circle closed';
         if (val >= 18) {
             document.getElementById('dash-d5').hidden=false;
@@ -65,7 +65,7 @@ let slide = function() {
     }
 
     if (val >= 19) {
-        document.getElementById('info4').hidden = false;
+        document.getElementById('card4').hidden = false;
         document.getElementById('point4').className = 'circle closed';
         if (val >= 22) {
             document.getElementById('dash-e3').hidden=false;
@@ -79,11 +79,11 @@ let slide = function() {
     }
 
     if (val >= 25) {
-        document.getElementById('finish').hidden = false;
+        document.getElementById('card-end').hidden = false;
     }
 
     if (val <= 4) {
-        document.getElementById('info1').hidden = true;
+        document.getElementById('card1').hidden = true;
         document.getElementById('point1').className = 'circle open';
 
         if (val <= 3) {
@@ -98,7 +98,7 @@ let slide = function() {
     }
 
     if (val <= 8) {
-        document.getElementById('info2').hidden = true;
+        document.getElementById('card2').hidden = true;
         document.getElementById('point2').className = 'circle open';
 
         if (val <= 7) {
@@ -113,7 +113,7 @@ let slide = function() {
     }
 
     if (val <= 13) {
-        document.getElementById('info3').hidden = true;
+        document.getElementById('card3').hidden = true;
         document.getElementById('point3').className = 'circle open';
         if (val <= 12) {
             document.getElementById('dash-c4').hidden = true;
@@ -130,7 +130,7 @@ let slide = function() {
     }
 
     if (val <= 19) {
-        document.getElementById('info4').hidden = true;
+        document.getElementById('card4').hidden = true;
         document.getElementById('point4').className = 'circle open';
         if (val <= 18) {
             document.getElementById('dash-d5').hidden = true;
@@ -150,7 +150,7 @@ let slide = function() {
     }
 
     if (val <= 23) {
-        document.getElementById('finish').hidden = true;
+        document.getElementById('card-end').hidden = true;
         
         if (val <= 23) {
             document.getElementById('dash-e3').hidden = true;
