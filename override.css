@@ -34,10 +34,6 @@ h1 {
 
 .card {border: none;}
 
-.card-header {
-    background-color: #50838B;
-}
-
 .offcanvas {
     width: 20vw;
 }
@@ -46,8 +42,12 @@ h1 {
     background-color: #C1D8DC;
 }
 
-.offcanvas-body h2 {
-    margin-top: 7vh;
+.offcanvas-body > * {
+    margin-bottom: 5vh;
+}
+
+.offcanvas-body h2, .offcanvas-body h3 {
+    margin-top: 9vh;
     font-family: Roboto, sans-serif;
 }
 
